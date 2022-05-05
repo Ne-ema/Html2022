@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <style>
+        h2{
+            color: midnightblue;
+            text-align: center;
+            font-style: italic;
+
+        }
+        input{
+            border: black solid 0.5px;
+            padding: 10px;
+            color: black;
+        }
+        form{
+            text-align: center;
+            color: #051804;
+
+        }
+        label{
+            font-family: FreeSans;
+        }
+
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+</head>
+<link rel="icon" type="image/x-icon" href="Images/pol.jpeg">
+<body bgcolor="#e0ffff">
+<h2>Student Registration Form</h2>
+<form action="heading.html">
+    <label for="fname"> First name</label><br>
+    <input type="text"id="fname" placeholder="First Name"><br><br>
+    <label for="lname">Lastname</label><br>
+    <input type="text"id="lname" placeholder="Last Name"><br><br>
+    <label for="email">Email Address</label><br>
+    <input type="email"id="email" placeholder="Email">
+    <label for="courses">Select Course</label>
+    <select name="Course" id="Courses">
+        <option value="Javascript">Javascript</option>
+        <option value="Python">Python</option>
+        <option value="PHP">PHP</option>
+
+    </select><br>
+    <label for="image">upload</label>
+    <input type="file"id="image">
+   <h3>Gender</h3>
+    <label for="Male">Male</label><br>
+    <input type="radio"id="Male" name="gender"><br>
+    <label for="Female">Female</label><br>
+    <input type="radio"id="Female" name="gender"><br>
+    <label for="other">Other</label><br>
+    <input type="radio"id="other" name="gender"><br>
+    <label for="DOR">Date Of Registration</label><br>
+    <input type="date"id="DOR"><br><br>
+    <label for="Pass">Password</label><br>
+    <input type="password"id="Pass" placeholder="Password"><br><br>
+    <input style="background-color: #8593c7" type="submit"value="Register"><br><br>
+    <button type="button"onclick="alert('Enjoy your holiday')">Click for Holiday</button>
+
+</form>
+</body>
+</html>

@@ -1,0 +1,32 @@
+#Canada{
+    border-style: double;
+    border: 2px solid black;
+    background-image: url("");
+    margin: 20px;
+    text-align: right;
+    font-family: "Courier 10 Pitch";
+    font-size: xx-large;
+    font-weight: bolder;
+    color: #240845;
+    background-image: url("Images/CAN.jpeg");
+    padding: 30px;
+}
+#Kenya{
+    border: 2px solid black;
+    margin: 20px;
+    text-align: center;
+    font-family: "dejavu sans";
+    font-size: x-large;
+    font-weight: bold;
+    color: #34dbe8;
+    background-image: url("Images/k.jpeg");
+
+}
+#America{
+    border: 2px solid black;
+    margin: 20px;
+    color: #806b00;
+    background-image: url("Images/AM.jpeg");
+    text-align: center;
+
+}

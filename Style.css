@@ -1,0 +1,35 @@
+.fruits{
+    border: 2px solid black;
+    text-align: center;
+    background-color: brown;
+    padding: 20px;
+    margin: 20px;
+    background-image: url("Images/APP.jpeg");
+
+}
+.FRUITS{
+    border: 2px solid darkslateblue;
+    text-align: center;
+    background-color: burlywood;
+    padding: 15px;
+    margin: 20px;
+    color: #053d0b;
+    background-image: url("Images/pine.jpeg");
+    font-family: "dejavu sans";
+    font-size: larger;
+
+
+
+}
+.Cars{
+    border-style: double;
+    text-align: center;
+    background-color: bisque;
+    padding: 15px;
+    margin: 20px;
+    background-image: url("Images/car1.jpeg");
+    color: #8593c7;
+   font-family: sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+}
